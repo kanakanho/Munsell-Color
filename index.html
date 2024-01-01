@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>munsell color</title>
+        <link rel="stylesheet" href="style/header.css" />
+        <link rel="stylesheet" href="style/main.css" />
+    </head>
+    <body>
+        <header>
+            <p>munsell color</p>
+        </header>
+        <main ></main>
+    </body>
+    <script>
+        // ./processing/grid.htmlを読み込む
+        // fetch('./processing/grid.html')
+        //     .then(response => response.text())
+        //     .then(text => {
+        //         // codeの中にgrid.htmlの内容を追加する
+        //         // 新しくmainを作成する
+        //         const main = document.createElement('main');
+        //         main.innerHTML = text;
+        //         document.body.appendChild(main);
+        //         // document.querySelector('main').innerHTML = text;
+        //     });
+
+        // mainの中身をスクロールで繰り返す
+        // 一番下までスクロールしたら、loadHtml.jsのloadHtml()を実行する
+        // window.addEventListener("scroll", () => {
+        //     const main = document.querySelector("main");
+        //     const mainHeight = main.clientHeight;
+        //     const scrollY = window.scrollY;
+        //     const windowHeight = window.innerHeight;
+        //     console.log("mainHeight:", mainHeight, " scrollY:", scrollY, " windowHeight:", windowHeight);
+        //     if ((mainHeight - scrollY) * 0.7 < windowHeight) {
+        //         loadHtml();
+        //     }
+        // });
+    </script>
+    <script src="script/loadHtml.js"></script>
+    <script src="script/copyColor.js"></script>
+</html>

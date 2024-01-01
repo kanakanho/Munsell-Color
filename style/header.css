@@ -1,0 +1,26 @@
+header {
+    display: block;
+    width: 4vw;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+header p {
+    margin: 0;
+    font-size: 1.5rem;
+    transform: translateY(20vh) rotate(+270deg);
+    white-space: nowrap;
+}
+
+/* responsive */
+@media screen and (max-width: 560px) {
+    header {
+        width: 280vw;
+        white-space: nowrap;
+    }
+    header p {
+        transform: none;
+    }
+}
