@@ -4,5 +4,6 @@ span {
     bottom: 2vw;
     right: 2vw;
     border-radius: 2vw;
+    color: #333;
     background-color: rgba(66, 66, 66, 0.2);
 }
