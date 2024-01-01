@@ -8,7 +8,6 @@ body {
 }
 main {
     margin: 0 2vw;
-    width: 80vw;
 
     /* display:grid */
     display: grid;
@@ -21,8 +20,6 @@ h4{
     margin: 0;
 
     height: 2rem;
-    border-radius: 5px;
-
     /* 下揃え */
     display: flex;
     align-items: flex-end;
